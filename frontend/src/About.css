@@ -1,0 +1,49 @@
+.about-me {
+    background-color: #202124;
+}
+
+.about-me h1 {
+    text-align: center;
+    color: white;
+}
+
+.about-me img {
+    max-width: 300px;
+}
+
+.intro {
+    color: white;
+}
+
+.about-content {
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
+.skill {
+    color: white;
+    font-size: 80px;
+}
+
+.skill > span {
+    font-size: 20px;
+}
+
+.skill > i:hover {
+    color: #26e6dd;
+}
+
+@media (max-width: 767.98px) {
+    .about-me {
+        text-align: center;
+    }
+    .about-me img {
+        margin-bottom: 30px;
+    }
+    .skill {
+        color: white;
+        font-size: 50px;
+        margin: 0 20px;
+    }
+}

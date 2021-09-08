@@ -1,0 +1,16 @@
+.experiences {
+    background-color: #110b11;
+}
+
+.card {
+    /* border-color: #26e6dd; */
+    border: 0.1px solid #26e6dd;
+}
+
+.exp-card .card-title p {
+    font-size: 1rem;
+}
+
+.exp-card .card-text p {
+    margin-bottom: 0;
+}
