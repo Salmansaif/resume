@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-g@x*&)sy9(aa2^^sd!a$nx%_5v9z!y4wwx%n4u_9n(su3!_oh4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['salmansaif.herokuapp.com', '127.0.0.1']
 
@@ -140,6 +140,7 @@ STATICFILES_DIRS = [
     # os.path.join(BASE_DIR, 'frontend/build/static'),
     os.path.join(BASE_DIR, 'images'),
 ]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
