@@ -7,7 +7,7 @@ class Project(models.Model):
     sub_title = models.CharField(max_length=50)
     description = models.TextField()
     image = models.ImageField(
-        upload_to='static/projects', null=True, blank=True)
+        upload_to='projects/', null=True, blank=True)
     status = models.BooleanField(default=True)
     github_url = models.URLField()
 
