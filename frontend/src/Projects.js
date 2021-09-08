@@ -31,9 +31,7 @@ const Projects = () => {
                     {projects && Object.entries(projects).map(([key, project]) => (
                         <Col>
                             <Card bg="dark" text="white">
-                                <a href="https://google.com">
-                                    <Card.Img variant="top" src={project.image}/>
-                                </a>
+                                <Card.Img variant="top" src={project.image}/>
                                 <Card.Body>
                                     <Card.Title>{project.title}</Card.Title>
                                     <Card.Text>{project.description}</Card.Text>
